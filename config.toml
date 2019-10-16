@@ -1,0 +1,37 @@
+baseURL = "http://example.org/"
+languageCode = "ru-ru"
+title = "My New Hugo Site"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+theme = "piclab_orbitor"
+
+[params]
+[params.home_banner]
+   title = 'Цифровой опыт PicLab'
+   subtitle = 'Самое мощное решение'
+   description = 'Veritatis earum aliquid doloribus molestias, eveniet molestiae aperiam ratione. Facilis velit voluptatibus impedit eligendi delectus illo earum voluptatum, laudantium molestiae!'
+   btn_text = 'Подробнее про PicLab'
+
+[[params.home_about]]
+    icon = 'ti-light-bulb'
+    title = 'Разработка ПО под заказчика'
+    description = 'текст 1'
+    link_text = 'Подробнее'
+
+[[params.home_about]]
+    icon = 'ti-panel'
+    title = 'Анализ расходов на всех этапах'
+    description = 'текст 2'
+    link_text = 'Читать далее'
+
+[[params.home_about]]
+    icon = 'ti-headphone-alt'
+    title = 'Создание условий для роста вашего бизеса'
+    description = 'текст 2'
+    link_text = 'Ещё подробнее...'
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
