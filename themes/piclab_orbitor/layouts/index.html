@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode }}">
 <head>
   {{ partial "head/meta.html" . }}
-  <title>Orbitor - Software Company Template</title>
+  <title>PicLab — Сочетание науки и бизнеса</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
@@ -17,7 +17,7 @@
 	{{ partial "home_banner.html" .Site.Params.home_banner }}
 	{{ partial "home_about.html" .Site.Params.home_about }}
 
-<section class="section process">
+<section id="team" class="section process">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-5">
@@ -72,7 +72,7 @@
 			<div class="col-lg-5">
 				<div class="cta-content bg-white p-5 rounded">
 					<h3 class="mb-4">Сочетание науки и бизнеса</h3>
-					<p class="mb-30">Компания PicLab работает в кооперации с «<a href="https://demid.ai">Центром искусственного интеллекта и цифровой экономики</a>» Ярославского государственного университета им.&nbspП.Г.&nbspДемидова</p>
+					<p class="mb-30">Компания PicLab работает в кооперации с «<a href="https://demid.ai">Центром искусственного интеллекта и цифровой экономики</a>» Ярославского государственного университета им.&nbspП.Г.&nbspДемидова.</p>
 
 					<!-- <a href="project.html" class="btn btn-main">Portfolio<i class="fa fa-angle-right ml-2"></i></a> -->
 				</div>
@@ -82,7 +82,7 @@
 </section>
 
 <!-- section portfolio start -->
-<section class="section portfolio pb-0">
+<section id="project" class="section portfolio pb-0">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
@@ -253,7 +253,7 @@
 							<h6>John Partho</h6>
 							<span>Newyork USA</span>
 						</div>
-					</div>
+					</div
 				</div>
 
 				<div class="testimonial-block">
@@ -322,7 +322,7 @@
 </section> -->
 
 <!-- footer Start -->
-<footer class="footer section">
+<footer id="contact" class="footer section">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 mr-auto col-sm-6">
@@ -339,10 +339,10 @@
 
 					<ul class="list-unstyled footer-menu lh-35">
 						<li><a href="#">Главная</a></li>
-						<li><a href="#">Как мы работаем</a></li>
-						<li><a href="#">Команда</a></li>
+						<li><a href="#process">Как мы работаем</a></li>
+						<li><a href="#team">Команда</a></li>
 						<li><a href="#">Партнёры</a></li>
-						<li><a href="#">Проекты</a></li>
+						<li><a href="#projects">Проекты</a></li>
 					</ul>
 				</div>
 			</div>
